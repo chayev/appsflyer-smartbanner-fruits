@@ -1,0 +1,119 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;  
+  width: 414px;
+  height: 628px;
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+gli.column {
+  float: left;
+  width: 50%;
+  padding: 5px 20px;
+}
+
+.row {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 40px;
+
+  color: #00A0E0;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+  
+  width: 219px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #00A0E0;
+}
+
+.fruitbox {
+  position: relative;  
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.27) 100%);
+  
+  margin: 30px 15px 1px 30px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.fruittext h2{
+  position: absolute;
+  top: 40%;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  
+  color: #fff;
+}
+
+.fruitpage {
+  position: relative;  
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.27) 100%);
+  
+  margin: 70px 15px 1px 30px;
+  height: 300px;  
+}
+
+.fruitpage h2{
+  position: absolute;
+  top: 50%;
+  margin-left: 30px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 26px;
+  
+  color: #FFFFFF;
+}
+
+
+.fruitpage h3{
+  position: absolute;
+  top: 70%;
+  margin-left: 30px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  
+  color: #FFFFFF;
+}
