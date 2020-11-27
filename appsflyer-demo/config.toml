@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = ""
+baseURL = "http://halseylabs.com/demo/"
 languageCode = "en"
 title = "AppsFlyer | Demo Site"
 theme = "hargo"
