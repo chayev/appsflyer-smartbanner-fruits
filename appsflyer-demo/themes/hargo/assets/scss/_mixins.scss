@@ -27,3 +27,9 @@
 @mixin size($size){
   width: $size; height: $size;
 }
+
+@media only screen AND (max-width: 767px) { 
+  #desktop-only { 
+    display: none;
+  }
+}

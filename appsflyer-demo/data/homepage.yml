@@ -19,7 +19,7 @@ about:
   enable : true
   title : "Download our App!"
   content : "Scan the QR code using your phones camera app to view our products on the go."
-  image : "images/qr_code.png"
+  image : "images/qr_code_scanme.png"
 
 
 ###################### Call to action ########################

@@ -13,14 +13,6 @@
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
-  {{ with site.Params.snipcartApiKey }}
-  {{ "<!-- Snipcart -->" | safeHTML }}
-  <link rel="preconnect" href="https://app.snipcart.com/">
-  <link rel="preconnect" href="https://cdn.snipcart.com/">
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.css">
-  <script async src="https://cdn.snipcart.com/themes/v3.0.25/default/snipcart.js"></script>
-  {{ end }}
-
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
@@ -28,4 +20,14 @@
   {{ "<!-- Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <script>
+    !function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "d12425a4-aae5-4704-ba56-f7caad37172a"}})
+    AF('banners', 'showBanner')
+  </script>
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+    analytics.load("vFhjVNwonIUxHXKK6wQp62pR6KfcZQwS");
+    analytics.page();
+    }}();
+  </script>
 </head>

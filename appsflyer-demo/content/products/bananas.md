@@ -6,6 +6,9 @@ draft: false
 # meta description
 description : "A banana is an elongated, tasty fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants."
 
+# product OneLink
+productOnelink: "https://appsflyer.onelink.me/pGHC?pid=HalseyDemo&c=bananas&af_sub1=bananas"
+
 # product Price
 price: "0.25 each"
 priceBefore: "1.10"

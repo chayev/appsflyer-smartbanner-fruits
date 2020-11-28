@@ -18,8 +18,6 @@
   <link rel="stylesheet" href="http://halseylabs.com/demo/plugins/themify-icons/themify-icons.css">
   
 
-  
-
   <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="http://halseylabs.com/demo/scss/style.min.css" media="screen">
@@ -27,14 +25,18 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="http://halseylabs.com/demo/images/favicon.png " type="image/x-icon">
   <link rel="icon" href="http://halseylabs.com/demo/images/favicon.png " type="image/x-icon">
+  <script>
+    !function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "d12425a4-aae5-4704-ba56-f7caad37172a"}})
+    AF('banners', 'showBanner')
+  </script>
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+    analytics.load("vFhjVNwonIUxHXKK6wQp62pR6KfcZQwS");
+    analytics.page();
+    }}();
+  </script>
 </head>
-<body>
-<!-- preloader start -->
-<div class="preloader">
-  
-</div>
-<!-- preloader end -->
-<!-- navigation -->
+<body><!-- navigation -->
 <header class="sticky-top navigation">
   <div class="container">
     
@@ -45,7 +47,7 @@
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="http://halseylabs.com/demo/"> Home </a>
           </li>
@@ -64,7 +66,6 @@
           
         </ul>
       </div>
-      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
     </nav>
   </div>
 </header>
@@ -90,6 +91,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5 mb-4 mb-lg-0">
+        
+          <button class="btn btn-primary btn-block"
+            onclick="location.href='https:\/\/appsflyer.onelink.me\/pGHC?pid=HalseyDemo\u0026c=bananas\u0026af_sub1=bananas'" type="button">
+            View in App
+          </button>
+        
+        <br><br>
         
         <div class="product-slider">
           
@@ -119,11 +127,6 @@
         </div>
         <h5>Short Description</h5>
         <p>A banana is an elongated, tasty fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants.</p>
-        <button class="snipcart-add-item btn btn-primary" data-item-id="2"
-          data-item-name="Bananas"  data-item-image="http://halseylabs.com/demo/images/products/fruits/banana-02.png"
-           data-item-price="0.25 each" data-item-url="http://halseylabs.com/demo/products/bananas/" data-item-description="A banana is an elongated, tasty fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants.">
-          Add to cart
-        </button>
       </div>
       <div class="col-12 mt-5">
         <ul class="nav nav-tabs border-bottom-0" id="myTab" role="tablist">
@@ -131,18 +134,11 @@
             <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab"
               aria-controls="description" aria-selected="true">Description</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews"
-              aria-selected="false">Reviews</a>
-          </li>
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
             <div class="content"><p>Banana, fruit of the genus Musa, of the family Musaceae, one of the most important fruit crops of the world. The banana is grown in the tropics, and, though it is most widely consumed in those regions, it is valued worldwide for its flavour, nutritional value, and availability throughout the year. Cavendish, or dessert, bananas are most commonly eaten fresh, though they may be fried or mashed and chilled in pies or puddings. They may also be used to flavour muffins, cakes, or breads. Cooking varieties, or plantains, are starchy rather than sweet and are grown extensively as a staple food source in tropical regions; they are cooked when ripe or immature. A ripe fruit contains as much as 22 percent of carbohydrate and is high in dietary fibre, potassium, manganese, and vitamins B6 and C.</p>
 </div>
-          </div>
-          <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
-            
           </div>
         </div>
       </div>
@@ -221,7 +217,7 @@
       </div>
       <div class="col-lg-4 col-md-5">
         <h5 class="font-weight-medium mb-4">Contact us</h5>
-        <form action="#" method="POST">
+        <form action="https://formspree.io/f/meqplkde" method="POST">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Your Email">
           <textarea name="message" id="message" class="form-control mb-2" placeholder="Your Message"></textarea>
@@ -248,8 +244,6 @@
 <script src="http://halseylabs.com/demo/plugins/bootstrap/bootstrap.min.js"></script>
 
 <script src="http://halseylabs.com/demo/plugins/slick/slick.min.js"></script>
-
-<script src="http://halseylabs.com/demo/plugins/google-map/gmap.js"></script>
 
 
 <!-- Main Script -->

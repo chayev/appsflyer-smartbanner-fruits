@@ -6,6 +6,9 @@ draft: false
 # meta description
 description : "A peach is a soft, juicy and fleshy stone fruit produced by a peach tree. It is grown throughout the warmer temperate regions."
 
+# product OneLink
+productOnelink: "https://appsflyer.onelink.me/pGHC?pid=HalseyDemo&c=peaches&af_sub1=peaches"
+
 # product Price
 price: "0.45 each"
 priceBefore: ""
