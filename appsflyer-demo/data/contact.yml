@@ -18,7 +18,16 @@ contact:
       - dayTime : "Friday: 9:00 – 19:00"
       - dayTime : "Saturday: 9:00 – 19:00"
       - dayTime : "Sunday: 9:00 – 19:00"
+  
+  # learn more
+  learnmore:
+    title: "Learn More"
+    content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna."
 
 ####################### google map ########################
 map:
+  enable: false
+
+####################### contact form ######################
+form:
   enable: false

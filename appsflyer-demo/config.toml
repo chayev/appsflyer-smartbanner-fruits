@@ -92,11 +92,13 @@ mapLatitude = "32.16443083113449"
 mapLongitude = "34.810849898354626"
 mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "UA-184104478-1" # Your ID
 # Contact Information
 mobile = "+972-9-768-1949"
 email = "support@appsflyer.com"
 location = "Herzliya, Israel"
+# QR Code
+qrcode = "images/qr_code_scanme.png"
 # copyright
 copyright = "AppsFlyer | Copyright &copy; 2020 All Rights Reserved | www.appsflyer.com"
 # Snipcart Credentials
