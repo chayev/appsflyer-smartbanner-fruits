@@ -1,0 +1,3 @@
+[submodule "appsflyer-demo/hargo"]
+	path = appsflyer-demo/hargo
+	url = git@github.com:themefisher/hargo.git
