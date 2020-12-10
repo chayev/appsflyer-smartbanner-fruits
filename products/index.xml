@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on AppsFlyer | Demo Site</title>
+    <link>https://chayev.github.io/appsflyer-smartbanner-fruits/products/</link>
+    <description>Recent content in Products on AppsFlyer | Demo Site</description>
+    <generator>Gotham -- gothamhq.com</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Nov 2020 11:22:16 +0600</lastBuildDate><atom:link href="https://chayev.github.io/appsflyer-smartbanner-fruits/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apples</title>
+      <link>https://chayev.github.io/appsflyer-smartbanner-fruits/products/apples/</link>
+      <pubDate>Thu, 26 Nov 2020 11:22:16 +0600</pubDate>
+      
+      <guid>https://chayev.github.io/appsflyer-smartbanner-fruits/products/apples/</guid>
+      <description>Apple varieties, of which there are thousands, fall into three broad classes: (1) cider varieties; (2) cooking varieties; and (3) dessert varieties, which differ widely but tend to emphasize colour, size, aroma, smoothness, and perhaps crispness and tang.</description>
+    </item>
+    
+    <item>
+      <title>Bananas</title>
+      <link>https://chayev.github.io/appsflyer-smartbanner-fruits/products/bananas/</link>
+      <pubDate>Thu, 26 Nov 2020 11:22:16 +0600</pubDate>
+      
+      <guid>https://chayev.github.io/appsflyer-smartbanner-fruits/products/bananas/</guid>
+      <description>Banana, fruit of the genus Musa, of the family Musaceae, one of the most important fruit crops of the world. The banana is grown in the tropics, and, though it is most widely consumed in those regions, it is valued worldwide for its flavour, nutritional value, and availability throughout the year.</description>
+    </item>
+    
+    <item>
+      <title>Peaches</title>
+      <link>https://chayev.github.io/appsflyer-smartbanner-fruits/products/peaches/</link>
+      <pubDate>Thu, 26 Nov 2020 11:22:16 +0600</pubDate>
+      
+      <guid>https://chayev.github.io/appsflyer-smartbanner-fruits/products/peaches/</guid>
+      <description>Nectarine, (Prunus persica), smooth-skinned peach of the family Rosaceae that is grown throughout the warmer temperate regions of both the Northern and Southern hemispheres.</description>
+    </item>
+    
+  </channel>
+</rss>
