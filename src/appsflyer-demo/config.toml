@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://liaz-af.github.io/appsflyer-smartbanner-fruits/"
+baseURL = "https://chayev.github.io/appsflyer-smartbanner-fruits/"
 languageCode = "en"
 title = "AppsFlyer | Demo Site"
 theme = "hargo"
@@ -7,6 +7,9 @@ summaryLength = "20"
 paginate = 10
 disqusShortname = ""
 publishDir = "../.."
+
+appLinkPrefix = "ABCED12345"
+appLinkBundle = "com.gothamhq.ios"
 
 ############################# Plugins ##############################
 [params.plugins]
