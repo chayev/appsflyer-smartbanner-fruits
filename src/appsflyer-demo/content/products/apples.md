@@ -7,7 +7,7 @@ draft: false
 description : "The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible."
 
 # product OneLink
-productOnelink: "https://appsflyer.onelink.me/pGHC?pid=HalseyDemo&c=apples&af_sub1=apples"
+productOnelink: "https://onelink-basic-app.onelink.me/H5hv/2358e13f"
 
 # product Price
 price: "0.50 each"

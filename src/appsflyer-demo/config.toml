@@ -8,8 +8,11 @@ paginate = 10
 disqusShortname = ""
 publishDir = "../.."
 
-appLinkPrefix = "ABCED12345"
-appLinkBundle = "com.gothamhq.ios"
+aasaPrefix = "6UQAD4B3U2"
+aasaBundle = "com.AppsFlyer.KamperDemo"
+
+assetLinksPackageName = "com.appsflyer.onelink.appsflyeronelinkbasicapp"
+assetLinksFingerprint = "DC:65:43:67:F3:BD:02:52:AC:B4:50:F1:74:54:23:49:4D:49:6C:E6:DF:56:BD:CB:53:06:11:5B:C9:4E:5D:0C"
 
 ############################# Plugins ##############################
 [params.plugins]

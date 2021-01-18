@@ -1,7 +1,7 @@
 {
 	"applinks": {
 		"details": [{
-			"appIDs": [ "ABCED12345.com.gothamhq.ios" ],
+			"appIDs": [ "6UQAD4B3U2.com.AppsFlyer.KamperDemo" ],
 			"components": [{
 					"#": "no_universal_links",
 					"exclude": true,
