@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.appsflyer.onelink.appsflyeronelinkbasicapp",
+               "sha256_cert_fingerprints": ["DC:65:43:67:F3:BD:02:52:AC:B4:50:F1:74:54:23:49:4D:49:6C:E6:DF:56:BD:CB:53:06:11:5B:C9:4E:5D:0C"] }
+}]
